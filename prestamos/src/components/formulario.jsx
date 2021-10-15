@@ -7,7 +7,7 @@ const Formulario = (props) => {
     guardarCantidad,
     plazo,
     guardarPlazo,
-    total,
+
     guardarTotal,
     cargandoSpinner,
   } = props;
@@ -41,8 +41,6 @@ const Formulario = (props) => {
   return (
     <>
       <form onSubmit={calcularPrestmo}>
-        {cantidad}
-        {plazo}
         <div className="row">
           <div>
             <label>Cantidad Prestamo</label>
